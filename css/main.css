@@ -1,0 +1,453 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&family=Fraunces:opsz,wght@9..144,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none;
+}
+
+.header {
+}
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  width: 1280px;
+}
+.header-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 760px; */
+}
+.nav {
+}
+.header-list{
+  display: flex;
+  gap: 33px;
+}
+.list-itemss {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+
+  color: #83888f;
+  cursor: pointer;
+}
+.list-itemss:hover {
+  color: #333d4b;
+}
+
+
+
+/* main */
+.main {
+    margin-top: 117px;
+}
+.container {
+    margin: 0 auto;
+    width: 1280px;
+    
+    
+}
+.hero {
+    background-image: url('../images/Bitmap.png');
+    background-size: cover;
+    border-radius: 10px;
+    height: 600px;
+    
+}
+.heading{
+    padding: 117px 0 116px 85px;
+}
+.main-header {
+ 
+  width: 493px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  /* or 100% */
+
+  color: #fefcf7;
+}
+.main-par {
+  margin-top: 32px;
+  width: 445px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  color: #fefcf7;
+
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.main-button {
+  margin-top: 56px;
+  padding: 15px 31px 16px 31px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+
+  color: #fefcf7;
+  background-color: #0E8784;
+
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+.main-button:hover {
+  background-color: #66d2cf;
+ 
+}
+.main-button:active{
+  box-shadow: 2px 2px 2px #66d2cf; 
+}
+ 
+
+
+/* products */
+.collection-part{
+margin-top: 136px;
+}
+.containerr{
+    margin: 0 auto;
+    width: 1111px;
+}
+
+
+
+.cards{
+  
+   
+display: flex;
+gap: 30px;
+}
+.products{
+
+}
+.card-heading{
+    margin-top: 76px;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    
+    text-align: center;
+}
+.card-par{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+text-align: center;
+
+color: #333D4B;
+
+   width: 255px; 
+}
+
+
+
+
+.choosing{
+  margin-left: 100px;
+  margin-top: 200px;
+background-color: #2C343E;
+padding-top: 100px;
+width: 1280px;
+height: 577px;
+}
+.container{
+  
+  
+}
+.choose{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.ch-header{
+
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  
+  text-align: center;
+  
+  color: #FEFCF7;
+}
+.ch-par{
+  margin-top: 32px;
+ 
+  width: 540px;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  
+  text-align: center;
+  
+  color: #FEFCF7;
+  
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+
+
+.conntainer{
+  margin: 0 auto;
+  width: 1110px;
+}
+.cards-part{
+display: flex;
+gap: 30px;
+
+}
+.cardss{
+  margin-top: -225px;
+  padding: 72px 48px 48px 48px;
+width: 350px;
+height: 382px;
+background-color: #0E8784;
+display: flex;
+align-items: center;
+flex-direction: column;
+border-radius: 8px;
+}
+.card3{
+  padding: 83px 48px 48px 48px;
+}
+.card-header{
+  margin-top: 56px;
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  
+  text-align: center;
+  
+  color: #FEFCF7;
+  
+}
+.cardd{
+  margin-top: 67px;
+}
+.card-desc{
+margin-top: 24px;
+  width: 255px;
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+text-align: center;
+
+color: #FEFCF7;
+}
+
+
+.article{
+  margin-top: 200px;
+}
+.contaainer{
+  margin: 0 auto;
+  width: 1045px;
+}
+.working-system{
+
+}
+.article-title{
+margin-bottom: 80px;
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+
+color: #83888F;
+
+
+}
+
+.group{
+  margin-bottom: 67px;
+}
+
+.services{
+display: flex;
+gap: 95px
+;
+}
+.service-card{
+
+}
+.article-heading{
+width: 255px;
+margin-top: 38px;
+
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+/* or 112% */
+
+
+color: #333D4B;
+
+}
+
+.hhd{
+  width: 200px;
+}
+.article-sub{
+  width: 285px;
+  margin-top: 43px;
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+color: #333D4B;
+
+
+}
+.article-btn{
+margin-top: 64px;
+padding: 15px 31px 16px 31px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+
+  color: #fefcf7;
+  background-color: #0E8784;
+
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+.article-btn:hover{
+  background-color: #66d2cf;
+}
+
+
+ .footer{
+  margin-top: 200px;
+  background-color: #2C343E;
+ }
+ .container{
+
+ }
+ .footer-part{
+  display: flex;
+  align-items: center;
+ }
+.nav{
+margin-left: 102px;
+}
+.header-list {
+  display: flex;
+  gap: 33px;
+}
+.list-items {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+
+  color: #83888f;
+  cursor: pointer;
+}
+.list-items:hover {
+  color: #FEFCF7;
+}
+.div-btn{
+  margin-left: 368px;
+  display: flex;
+  gap: 24px;
+}
+.footer-btn{
+ 
+  background:#2C343E ;
+  border: none;
+  cursor: pointer;
+
+  
+}
+.footer-btn:hover{
+  background-color: #FDD6BA; 
+background: #2C343E;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
