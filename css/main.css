@@ -9,7 +9,9 @@
 li {
   list-style-type: none;
 }
-
+a{
+  text-decoration: none;
+}
 .header {
 }
 .container {
@@ -47,7 +49,23 @@ li {
   color: #333d4b;
 }
 
+.link-page{
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
 
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+
+  color: #83888f;
+  cursor: pointer; 
+}
+.link-page:hover{
+  color: #333d4b;
+}
 
 /* main */
 .main {
